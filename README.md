@@ -1,5 +1,5 @@
 # react-law-webpage
-Creating react web page for a law firm
+Creating a react web page for a law firm
 
 ## Available Scripts
 
