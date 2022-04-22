@@ -1,0 +1,35 @@
+import React from 'react';
+import '../../App.css';
+import { Button } from '../Button/button';
+import './HeroSection.css';
+// import { GoPlay } from 'react-icons/go';
+
+function HeroSection() {
+  return (
+    <div className='hero-container'>
+      <video src='/videos/video-2.mp4' autoPlay loop muted />
+      <h1>Frenzel Law</h1>
+      <p>Suing the cloud</p>
+      <div className='hero-btns'>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          About
+        </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          Contact 
+          {/* <span><GoPlay /></span> */}
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+export default HeroSection;
