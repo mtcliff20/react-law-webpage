@@ -5,9 +5,9 @@ Creating a react web page for a law firm
 
 In the project directory, you can run:
 ### `npm start`
-Launch the app in development mode agiaint [http://localhost:3000]
-### `npm test`
+Launch the app in development mode against [http://localhost:3000]
 
+### `npm test`
 Launches the test runner 
  › Press a to run all tests.
  › Press f to run only failed tests.
@@ -17,7 +17,6 @@ Launches the test runner
  › Press Enter to trigger a test run.
 
 ### `npm run build`
-
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -25,7 +24,7 @@ The build is minified and the filenames include the hashes.\
 
 ## Additional Documentation and resources
 
-## React documentation
+### React documentation
 (https://reactjs.org/).
 
 ### Code Splitting
