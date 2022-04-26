@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/autoCloud.mp4' autoPlay loop muted />
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>Frenzel Law</h1>
       <p>Suing the cloud</p>
       <div className='hero-btns'>
@@ -22,7 +22,6 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
           Contact 
           {/* <span><GoPlay /></span> */}
