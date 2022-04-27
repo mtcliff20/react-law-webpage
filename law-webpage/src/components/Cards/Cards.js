@@ -25,7 +25,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/contact.jpg'
-              text='Contact Us'
+              text='Contact us'
               label='Contact'
               path='/contact'
             />

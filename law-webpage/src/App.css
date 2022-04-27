@@ -8,8 +8,8 @@
   
   .home,
   .services,
-  .products,
-  .sign-up {
+  .career,
+  .about {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -26,7 +26,7 @@
     font-size: 100px;
   }
   
-  .products {
+  .career {
     background-image: url('../public/images/img-1.jpg');
     background-position: center;
     background-size: fill;
@@ -35,7 +35,7 @@
     font-size: 100px;
   }
   
-  .sign-up {
+  .about {
     background-image: url('../public/images/img-8.jpg');
     background-position: center;
     background-size: cover;
