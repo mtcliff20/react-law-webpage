@@ -59,6 +59,8 @@
     text-align: left;
     width: 160px;
     box-sizing: border-box;
+    font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
   }
   
   .footer-link-items h2 {
