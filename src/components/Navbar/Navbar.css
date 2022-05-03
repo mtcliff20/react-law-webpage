@@ -28,11 +28,6 @@
   display: flex;
 }
 
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
-}
-
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -75,6 +70,10 @@
   color: white;
 }
 
+.scale-icon {
+  padding-left: 8px;
+}
+
 @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
@@ -90,6 +89,15 @@
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+  }
+
+  .navbar-logo {
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 27px;
+    display: flex;
   }
 
   .nav-menu.active {
@@ -148,9 +156,5 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
-  }
-
-  .scale-icon {
-    padding-left: 8px;
   }
 }
