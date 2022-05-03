@@ -2,44 +2,67 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
-    color: #fff;
+    /* font-family: 'PT Sans', sans-serif;
+    color: #fff; */
+  }
+
+  .list {
+    margin: 0 0 0 4em;
+  }
+
+  h2 {
+    word-wrap: break-word;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+    margin: 1em 0em 0.5em 2em;
+    letter-spacing: 1px;
+    font-size: 38px;
+  }
+
+  /* .footer-header {
+    margin: 0;
+  } */
+
+  p {
+    margin:0 1em 1em 1em;
   }
   
-  .home,
-  .services,
-  .career,
-  .about {
+  .home {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
   }
+
+  .services, .career, .about, .contact {
+    /* background-image: url('../public/images/img-1.jpg'); */
+    /* background-color: #ffd480; */
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    /* padding: 50px; */
+}
+
+/* .services, .career, .about, .contact > h2 {
+  word-wrap: break-word;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica',
+  'Arial', sans-serif;
+  margin: 1em 0 0.5em;
+  letter-spacing: 1px;
+  font-size: 38px;
+} */
+
+.services, .career, .about, .contact > p {
+  margin-top: 8px;
+  font-size: 20px;
+  font-family: 'Playfair Display', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+}
   
-  .services {
-    background-image: url('../public/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .career {
-    background-image: url('../public/images/img-1.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .about {
-    background-image: url('../public/images/img-8.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }

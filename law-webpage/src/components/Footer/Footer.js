@@ -8,14 +8,14 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>About Us</h2>
+            <h2 className='footer-header'>About Us</h2>
             <Link to='/'>Testimonials</Link>
             <Link to='/career'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Contact Us</h2>
+            <h2 className='footer-header'>Contact Us</h2>
             <Link to='/contact'>Contact</Link>
             <Link to='/contact'>Support</Link>
             <Link to='/'>Attornys</Link>
@@ -24,7 +24,7 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Social Media</h2>
+            <h2 className='footer-header'>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
@@ -78,8 +78,8 @@ function Footer() {
           </div>
         </div>
       </section>
-    <p>120 West Madison, Suite 1407, Chicago, IL, 60602</p>
-    <p>t.312.213.4707</p>
+    <p className='address'>120 West Madison, Suite 1407, Chicago, IL, 60602</p>
+    <p className='address'>t.312.213.4707</p>
     </div>
   );
 }
