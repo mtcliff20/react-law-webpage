@@ -20,6 +20,7 @@
 }
 
 .navbar-logo {
+  width: 100%;
   color: #fff;
   margin-left: 20px;
   cursor: pointer;
@@ -92,6 +93,7 @@
   }
 
   .navbar-logo {
+    width: 100%;
     color: #fff;
     margin-left: 20px;
     cursor: pointer;
